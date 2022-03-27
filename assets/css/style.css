@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ body {
+    background: #304352;  
+    background: -webkit-linear-gradient(to left, #d7d2cc, #304352); 
+    background: linear-gradient(to left, #d7d2cc, #304352); 
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn-danger {
+    background-color: #495965 !important;
+    border: #495965 !important;
+}
+
+h2#title {
+    font-family: 'Comfortaa', cursive !important;
+    font-size: 3em;
+    color: white;
+}
+
+p#ubication,p#temperature-value,p#temperature-desc{
+    font-family: 'Comfortaa', cursive !important;
+    color: white;
+}
+p#humidity,p#wind-speed{
+    font-family: 'Comfortaa', cursive !important;
+    font-size: 1em !important;
+    color: white;
+}
+
+#box1 {
+    cursor: pointer;
+    transition: 0.1s;
+    background: linear-gradient(to top, #41525F, #999D9E)
+}
+
+#box1:hover {
+    transition: 0.1s;
+    transform: scale(1.01);
+}
+
